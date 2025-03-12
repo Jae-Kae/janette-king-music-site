@@ -87,17 +87,6 @@ const ContactForm = () => {
 
   return (
     <div className='contact-menu'>
-      <h1 className='contact-title'>CONTACT ME</h1>
-      <h3>
-        <strong>Manager</strong> | Hot Tramp Management
-      </h3>
-      <p>Sarah@hottrampmanagement.com</p>
-      <h3>
-        <strong>Label</strong> | Birthday Cake
-      </h3>
-      <p>bucky@birthdaycakemedia.com bee@birthdaycakemedia.com</p>
-      <p>🚀 Leave me a message! 🚀</p>
-
       {!isSent && (
         <form onSubmit={handleSubmit}>
           <div className='form-group'>

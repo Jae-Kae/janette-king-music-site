@@ -8,7 +8,7 @@ const MusicVideoGrid = () => {
 
   return (
     <div className='container'>
-      <h1 className='title'>Music Videos</h1>
+      {/* <h1 className='title'>Music Videos</h1> */}
       <div className='grid'>
         {videos.map((video, index) => (
           <div key={index} className='card'>
