@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Montserrat', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--cream);
+  -webkit-tap-highlight-color: transparent;
+}
+
+:root {
+  /* Primary Colors */
+  /* --softLav: #c5a8e3; */
+  --softLav: #865374;
+  --forestGreen: #2d5f4b;
+  --charGray: #3a3a3a;
+
+  /* Secondary Colors */
+  --sage: #a8c4a2;
+  --cream: #f5ede1;
+
+  /* Accent Colors */
+  --honey: #e3b778;
+
+  --purple: #540351;
+  --blue: #3627b1;
+  --cyan: #25afce;
+  --transparent: #00000000;
+  --radius-left: 3rem 0 0 3rem;
+  --radius-right: 0 3rem 3rem 0;
+  --lavendar: #345jfs8;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,65 @@
+.shop-container {
+  color: white;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.hero-section {
+  display: flex;
+  top: 3rem;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  /* background: url('/images/music-hero.jpg') center/cover no-repeat; */
+}
+
+.hero-section h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.albums-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.album-card {
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.album-card:hover {
+  transform: scale(1.05);
+}
+
+.album-image {
+  width: 100%;
+}
+
+.album-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.album-info h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.play-button {
+  color: white;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.play-button:hover {
+  color: gold;
+}

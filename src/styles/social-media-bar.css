@@ -1,0 +1,14 @@
+.bar-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.bar-container > a {
+  color: gray;
+}
+
+.bar-container > a:hover {
+  color: var(--cream);
+  cursor: pointer;
+}
