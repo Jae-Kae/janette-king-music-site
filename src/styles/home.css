@@ -5,3 +5,9 @@
   align-items: center;
   overflow: hidden;
 }
+
+@media (max-width: 700px) {
+  .home-container > img {
+    width: 100%;
+  }
+}

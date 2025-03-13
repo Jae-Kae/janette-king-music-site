@@ -8,9 +8,7 @@ const Shop = () => {
   return (
     <div className='shop-container'>
       {/* Hero Section */}
-      <div className='hero-section'>
-        <h1>Shop</h1>
-      </div>
+      <div className='hero-section'>{/* <h1>Shop</h1> */}</div>
 
       {/* Albums Grid */}
       <div className='albums-grid'>
